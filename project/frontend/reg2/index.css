@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #385388;
+    
+    /* background: linear-gradient(#131C85,#8278D9); */
+    
+}
+.register-box{
+    background: #E72150;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.register-box h1{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.register-box input{
+    width: 15rem;
+    border-radius: 1px;
+    border: none;
+    padding: 5px;
+}
+.register-box label{
+    color: aliceblue;
+}
+a{
+    font-size: 25px;
+    text-decoration: none;
+    position:absolute;
+    bottom: unset;
+    top: 30rem;
+    background-color: #E72150;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 7px;
+
+}

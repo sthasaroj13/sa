@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="back">
+
+        <div class="logo">
+            <img src="logo.png" alt="" height="100px",width="50px ">
+            </div>
+        
+        <div class="cont">
+            <svg viewBox="0 0 887 830" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-15 0.999988C-15 0.447703 -14.5523 0 -14 0H687C797.457 0 887 89.5431 887 200V876C887 876.552 886.552 877 886 877H-14C-14.5523 877 -15 876.552 -15 876V0.999988Z" fill="url(#paint0_linear_1_22)"/>
+                <defs>
+                    <linearGradient id="paint0_linear_1_22" x1="436" y1="0" x2="436" y2="877" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#81D3ED" stop-opacity="0.98"/>
+                        <stop offset="0.461458" stop-color="#81D3ED" stop-opacity="0.366208"/>
+                        <stop offset="0.9999" stop-color="#81D3ED" stop-opacity="0.352042"/>
+                        <stop offset="1" stop-color="#81D3ED" stop-opacity="0"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+            <h1>Book Ambulance  Services <br> for event 
+                with Best  <i>Facility.</i> </h1>
+        </div>
+        <div class="login">
+          <h1>Login in Wecare</h1>
+<input type="text" placeholder="ENTER YOUR PHONE.NO" id="number">
+<p>We'll never share your Number with anyone else.</p>
+        </div>
+        <button id="btn">LOGIN</button>
+        <p id="para"></p>
+    </div>
+    <script>
+        let num =document.querySelector("#number");
+        let butn =document.querySelector("#btn");
+        let par =document.querySelector("#para")
+        butn.addEventListener('click',function(){
+            console.log(num.value)
+             if(num==''){
+                 par.innerHTML ="please enter your number"
+             para.style.color ="red"
+            }
+
+        })
+    </script>
+</body>
+</html>
